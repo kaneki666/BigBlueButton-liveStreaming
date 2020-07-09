@@ -8,13 +8,13 @@ services:
     image: aauzid/bigbluebutton-livestreaming
     environment:
         # BigBlueButton Server url:
-      - BBB_URL=https://your_BigBlueButton_server/bigbluebutton/api
+      - BBB_URL=http://34.87.179.205/bigbluebutton/api
       # BigBlueButton secret:
-      - BBB_SECRET=your_secret
+      - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=your_meetingID
+      - BBB_MEETING_ID=fqn8qjdiitc9yupe
       # Media server url:
-      - BBB_STREAM_URL=rtmp://media_server_url/stream/stream_key
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3191135100909238?s_bl=1&s_sc=3191135140909234&s_sw=0&s_vt=api-s&a=AbyWnMVBAo-ewgCb
       # Enable chat functionality
       - BBB_ENABLE_CHAT=true
       # show chat in live stream
