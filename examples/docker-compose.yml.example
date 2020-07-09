@@ -19,7 +19,7 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/3191135100909238?s_bl=1&s_sc=3191135140909234&s_sw=0&s_vt=api-s&a=AbyWnMVBAo-ewgCb
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3191293587560056?s_bl=1&s_sc=3191293627560052&s_sw=0&s_vt=api-s&a=AbxEHiktKXOF_3xI
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
