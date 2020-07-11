@@ -53,14 +53,8 @@ def bbb_browser():
 
     logging.info('Open BBB and hide elements!!')
     browser.get(get_join_url())
-    element = EC.presence_of_element_located((By.CSS_SELECTOR, '[aria-label="Listen only"]'))
+    element = EC.presence_of_element_located((By.ID, 'tippy-28'))
     WebDriverWait(browser, selelnium_timeout).until(element)
-    browser.find_elements_by_css_selector('[aria-label="Listen only"]')[0].click()
-
-    element = EC.invisibility_of_element((By.CSS_SELECTOR, '.ReactModal__Overlay'))
-    WebDriverWait(browser, selelnium_timeout).until(element)
-    browser.find_element_by_id('message-input').send_keys("This meeting will be stream to the following address: %s" % args.target)
-    browser.find_elements_by_css_selector('[aria-label="Send message"]')[0].click()
     
     if args.chat:
         browser.execute_script("document.querySelector('[aria-label=\"User list\"]').parentElement.style.display='none';")
