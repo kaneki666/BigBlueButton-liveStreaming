@@ -5,7 +5,7 @@ services:
     container_name: liveStreaming
     environment:
       # BigBlueButton Server url:
-      - BBB_URL=https://liveclassshikkhangon.com/bigbluebutton/
+      - BBB_URL=https://liveclassshikkhangon.com/bigbluebutton/api
       # BigBlueButton secret:
       - BBB_SECRET=gZPWCUsguzlh77E6lke0nDzv6ltYjXePtMWM6S1bss
       # BigBlueButton meetingID:
