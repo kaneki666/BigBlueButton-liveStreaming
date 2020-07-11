@@ -71,12 +71,7 @@ def bbb_browser():
             logging.info(ERR)
     logging.info("get_join_url...")
     browser.get(get_join_url())
-    element = EC.presence_of_element_located((By.CSS_SELECTOR, '[aria-label="Listen only"]'))
-    WebDriverWait(browser, selelnium_timeout).until(element)
-    browser.find_elements_by_css_selector('[aria-label="Listen only"]')[0].click()
-
-    element = EC.invisibility_of_element((By.CSS_SELECTOR, '.ReactModal__Overlay'))
-    WebDriverWait(browser, selelnium_timeout).until(element)
+    print("hello sadman")
     browser.find_element_by_id('message-input').send_keys("This meeting is streamed to: %s" % args.target)
     browser.find_elements_by_css_selector('[aria-label="Send message"]')[0].click()
     
