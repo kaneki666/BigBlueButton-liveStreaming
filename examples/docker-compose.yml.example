@@ -9,7 +9,7 @@ services:
       # BigBlueButton secret:
       - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=183f0bf3a0982a127bdb8161e0c44eb696b3e75c-1594449688040
+      - BBB_MEETING_ID=183f0bf3a0982a127bdb8161e0c44eb696b3e75c-1594451488354
       # download / save BigBlueButton meeting
       - BBB_DOWNLOAD_MEETING=false
       # play intro file (can be a local file in videodata folder e.g. /video/intro.mp4 or a url of a mediastream e.g. https://my.intro.stream)
