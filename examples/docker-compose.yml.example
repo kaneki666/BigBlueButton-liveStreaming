@@ -5,11 +5,11 @@ services:
     container_name: liveStreaming
     environment:
       # BigBlueButton Server url:
-      - BBB_URL=http://34.87.179.205/bigbluebutton/api
+      - BBB_URL=https://liveclassshikkhangon.com/bigbluebutton/
       # BigBlueButton secret:
-      - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
+      - BBB_SECRET=gZPWCUsguzlh77E6lke0nDzv6ltYjXePtMWM6S1bss
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=183f0bf3a0982a127bdb8161e0c44eb696b3e75c-1594451488354
+      - BBB_MEETING_ID=fMtxus8rSTWeG0IUEY2P6vgV9kOjpJim7nDyXdCzZaNqH5ob
       # download / save BigBlueButton meeting
       - BBB_DOWNLOAD_MEETING=false
       # play intro file (can be a local file in videodata folder e.g. /video/intro.mp4 or a url of a mediastream e.g. https://my.intro.stream)
@@ -19,7 +19,7 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmp://a.rtmp.youtube.com/live2/stream/bmea-269z-gyxd-04wv-5dqx
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3196474087042006?s_bl=1&s_sc=3196474117042003&s_sw=0&s_vt=api-s&a=Abxyr3kz-Ye8qMSz
 
     volumes:
       - ./videodata:/video
