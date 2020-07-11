@@ -20,8 +20,6 @@ services:
       - BBB_END_INTRO_AT=
       # Media server url:
       - BBB_STREAM_URL=rtmp://a.rtmp.youtube.com/live2/stream/bmea-269z-gyxd-04wv-5dqx
-      # Timezone (default: Europe/Vienna):
-      - TZ=Europe/Vienna
 
     volumes:
       - ./videodata:/video
