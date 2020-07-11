@@ -19,7 +19,7 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmp://a.rtmp.youtube.com/live2/bmea-269z-gyxd-04wv-5dqx
+      - BBB_STREAM_URL=rtmp://a.rtmp.youtube.com/live2/stream/bmea-269z-gyxd-04wv-5dqx
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
