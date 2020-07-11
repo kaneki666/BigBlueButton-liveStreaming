@@ -10,6 +10,7 @@ services:
       - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
       # BigBlueButton meetingID:
       - BBB_MEETING_ID=183f0bf3a0982a127bdb8161e0c44eb696b3e75c-1594482825949
+      
       # Media server url:
       - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3196474087042006?s_bl=1&s_sc=3196474117042003&s_sw=0&s_vt=api-s&a=Abxyr3kz-Ye8qMSz
       # Timezone (default: Europe/Vienna):
