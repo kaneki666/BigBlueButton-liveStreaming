@@ -53,6 +53,7 @@ def bbb_browser():
 
     logging.info('Open BBB and hide elements!!')
     browser.get(get_join_url())
+    print("Hello sadman")
     element = EC.presence_of_element_located((By.ID, 'tippy-28'))
     WebDriverWait(browser, selelnium_timeout).until(element)
     
