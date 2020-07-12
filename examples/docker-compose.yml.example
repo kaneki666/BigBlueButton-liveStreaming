@@ -5,11 +5,11 @@ services:
     container_name: liveStreaming
     environment:
       # BigBlueButton Server url:
-      - BBB_URL=http://34.87.179.205/bigbluebutton/api
+      - BBB_URL=https://liveclassshikkhangon.com/bigbluebutton/api
       # BigBlueButton secret:
-      - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
+      - BBB_SECRET=gZPWCUsguzlh77E6lke0nDzv6ltYjXePtMWM6S1bss
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=183f0bf3a0982a127bdb8161e0c44eb696b3e75c-1594533873488
+      - BBB_MEETING_ID=fMtxus8rSTWeG0IUEY2P6vgV9kOjpJim7nDyXdCzZaNqH5ob
       # start meeting (optional):
       - BBB_START_MEETING=false
       # attendee password (optional - has to be set to the attendee password of moodle/greenlight or any other frontend to allow joining via their links):
