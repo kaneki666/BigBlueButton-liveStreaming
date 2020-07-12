@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   bbb-streamer:
-    image: sadman789/livestreaming
+    image: aauzid/bigbluebutton-livestreaming
     container_name: liveStreaming
     environment:
       # BigBlueButton Server url:
@@ -9,7 +9,7 @@ services:
       # BigBlueButton secret:
       - BBB_SECRET=gZPWCUsguzlh77E6lke0nDzv6ltYjXePtMWM6S1bss
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=fMtxus8rSTWeG0IUEY2P6vgV9kOjpJim7nDyXdCzZaNqH5ob
+      - BBB_MEETING_ID=f88f980b9f60234831a091e7914a781b53838a44-1594541730940
       # start meeting (optional):
       - BBB_START_MEETING=false
       # attendee password (optional - has to be set to the attendee password of moodle/greenlight or any other frontend to allow joining via their links):
@@ -27,7 +27,7 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3198477123508369?s_bl=1&s_sc=3198477180175030&s_sw=0&s_vt=api-s&a=AbzWYQ80x2nae5aM
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3198707180152030?s_bl=1&s_sc=3198707210152027&s_sw=0&s_vt=api-s&a=AbwpW7x1fRUw1NB5
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
