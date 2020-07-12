@@ -5,11 +5,11 @@ services:
     container_name: liveStreaming
     environment:
       # BigBlueButton Server url:
-      - BBB_URL=https://liveclassshikkhangon.com/bigbluebutton/ap
+      - BBB_URL=http://34.87.179.205/bigbluebutton/ap
       # BigBlueButton secret:
-      - BBB_SECRET= gZPWCUsguzlh77E6lke0nDzv6ltYjXePtMWM6S1bss
+      - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=f88f980b9f60234831a091e7914a781b53838a44-1594479569326
+      - BBB_MEETING_ID=183f0bf3a0982a127bdb8161e0c44eb696b3e75c-1594533873488
       # start meeting (optional):
       - BBB_START_MEETING=false
       # attendee password (optional - has to be set to the attendee password of moodle/greenlight or any other frontend to allow joining via their links):
@@ -27,7 +27,7 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3196474087042006?s_bl=1&s_sc=3196474117042003&s_sw=0&s_vt=api-s&a=Abxyr3kz-Ye8qMSz
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3198477123508369?s_bl=1&s_sc=3198477180175030&s_sw=0&s_vt=api-s&a=AbzWYQ80x2nae5aM
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
