@@ -13,6 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 from datetime import datetime
+print("hello sadman s")
 
 downloadProcess = None
 browser = None
