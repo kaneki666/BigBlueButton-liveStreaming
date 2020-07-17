@@ -9,7 +9,7 @@ services:
       # BigBlueButton secret:
       - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=Demo Meeting
+      - BBB_MEETING_ID=DemoMeeting
       # start meeting (optional):
       - BBB_START_MEETING=false
       # attendee password (optional - has to be set to the attendee password of moodle/greenlight or any other frontend to allow joining via their links):
