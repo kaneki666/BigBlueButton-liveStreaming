@@ -1,4 +1,4 @@
-version: "2.0"
+version: "3.3"
 services:
   redis:
     image: redis
@@ -7,14 +7,14 @@ services:
   bbb-streamer:
     image: aauzid/bigbluebutton-livestreaming
     environment:
-        # BigBlueButton Server url:
-      - BBB_URL=http://34.87.179.205/bigbluebutton/api
+       # BigBlueButton Server url:
+      - BBB_URL=https://visavis.live/bigbluebutton/api
       # BigBlueButton secret:
       - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=183f0bf3a0982a127bdb8161e0c44eb696b3e75c-1594286554428
+      - BBB_MEETING_ID=Demo Meeting
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3191135100909238?s_bl=1&s_sc=3191135140909234&s_sw=0&s_vt=api-s&a=AbyWnMVBAo-ewgCb
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3214056641950417?s_bl=1&s_sc=3214056681950413&s_sw=0&s_vt=api-s&a=AbwgGRL-IxOvJ64g
       # Enable chat functionality
       - BBB_ENABLE_CHAT=true
       # show chat in live stream
