@@ -14,7 +14,7 @@ services:
       # BigBlueButton meetingID:
       - BBB_MEETING_ID=lkcl2enoot6vbzipp5hr9wgq9pdcmqsbuqny84pf
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3216139898408758?s_bl=1&s_sc=3216139928408755&s_sw=0&s_vt=api-s&a=Abxt8FeRz9AdjC3h
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3216197288403019?s_bl=1&s_sc=3216197321736349&s_sw=0&s_vt=api-s&a=AbwZVVJWCnBwlenO
       # Enable chat functionality
       - BBB_ENABLE_CHAT=true
       # show chat in live stream
