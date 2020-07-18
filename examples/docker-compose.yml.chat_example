@@ -12,7 +12,7 @@ services:
       # BigBlueButton secret:
       - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=Demo Meeting
+      - BBB_MEETING_ID=lkcl2enoot6vbzipp5hr9wgq9pdcmqsbuqny84pf
       # Media server url:
       - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3214056641950417?s_bl=1&s_sc=3214056681950413&s_sw=0&s_vt=api-s&a=AbwgGRL-IxOvJ64g
       # Enable chat functionality
