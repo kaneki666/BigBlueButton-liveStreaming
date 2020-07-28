@@ -10,24 +10,8 @@ services:
       - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
       # BigBlueButton meetingID:
       - BBB_MEETING_ID=lkcl2enoot6vbzipp5hr9wgq9pdcmqsbuqny84pf
-      # start meeting (optional):
-      - BBB_START_MEETING=false
-      # attendee password (optional - has to be set to the attendee password of moodle/greenlight or any other frontend to allow joining via their links):
-      - BBB_ATTENDEE_PASSWORD=IVLHwOBSVmYP
-      # moderator password (optional - has to be set to the moderator password of moodle/greenlight or any other frontend to allow joining via their links):
-      - BBB_MODERATOR_PASSWORD=JjeQYksarqLQ
-      # meeting title (optional):
-      - BBB_MEETING_TITLE=liveStreaming Test
-      # download / save BigBlueButton meeting
-      - BBB_DOWNLOAD_MEETING=false
-      # play intro file (can be a local file in videodata folder e.g. /video/intro.mp4 or a url of a mediastream e.g. https://my.intro.stream)
-      - BBB_INTRO=false
-      # begin the intro at position (optional, e.g. 00:00:05)
-      - BBB_BEGIN_INTRO_AT=04:40
-      # end intro after (optional, e.g. 01:00:00 - after one hour)
-      - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3244718178884263?s_bl=1&s_sc=3244718205550927&s_sw=0&s_vt=api-s&a=AbxkhmgnRJt-GhMk
+      - BBB_STREAM_URLrtmps://live-api-s.facebook.com:443/rtmp/3244718178884263?s_bl=1&s_sc=3244718205550927&s_sw=0&s_vt=api-s&a=AbxkhmgnRJt-GhMk
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
