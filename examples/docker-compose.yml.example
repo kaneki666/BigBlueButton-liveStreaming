@@ -11,7 +11,7 @@ services:
       # BigBlueButton meetingID:
       - BBB_MEETING_ID=lkcl2enoot6vbzipp5hr9wgq9pdcmqsbuqny84pf
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3247149751974439?s_bl=1&s_sc=3247149775307770&s_sw=0&s_vt=api-s&a=Abwtzvha1Q_-SYP_
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
