@@ -7,7 +7,7 @@ services:
       # BigBlueButton Server url:
       - BBB_URL=https://visavis.live/bigbluebutton/api
       # BigBlueButton secret:
-      - BBB_SECRET=wuEWZryH81zNvLYjphgoo0lw4rBrYFZg1NI8Hj1Dw
+      - BBB_SECRET=lkcl2enoot6vbzipp5hr9wgq9pdcmqsbuqny84pf
       # BigBlueButton meetingID:
       - BBB_MEETING_ID=jfgmp7fiwa2bc7qr3pch3xzan5hjggo4oicnzuvy
       # start meeting (optional):
@@ -27,7 +27,7 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/10224429082463264?s_bl=1&s_sc=10224429083263284&s_sw=0&s_vt=api-s&a=AbxID3E44uap-iqF
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3267380403284707?s_bl=1&s_sc=3267380423284705&s_sw=0&s_vt=api-s&a=Aby2xJX8csftd5El
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
