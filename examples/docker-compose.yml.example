@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   bbb-streamer:
-    image: aauzid/bigbluebutton-livestreaming
+    image: sadman789/livestreaming
     container_name: liveStreaming
     environment:
       # BigBlueButton Server url:
@@ -27,7 +27,7 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3247149751974439?s_bl=1&s_sc=3247149775307770&s_sw=0&s_vt=api-s&a=Abwtzvha1Q_-SYP_
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3267380403284707?s_bl=1&s_sc=3267380423284705&s_sw=0&s_vt=api-s&a=Aby2xJX8csftd5El
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
