@@ -79,7 +79,7 @@ def bbb_browser():
     WebDriverWait(browser, selelnium_timeout).until(element)
     browser.find_element_by_id('message-input').send_keys("This meeting is streamed: %s" % args.target)
     browser.find_elements_by_css_selector('[aria-label="Send message"]')[0].click()
-    browser.find_elements_by_css_selector('[aria-label="Make sadman fullscreen"]')[0].click()
+    browser.find_element_by_css_selector('[aria-label="Make sadman fullscreen"]').click()
     
     if args.chat:
         browser.execute_script("document.querySelector('[aria-label=\"User list\"]').parentElement.style.display='none';")
