@@ -9,7 +9,7 @@ services:
       # BigBlueButton secret:
       - BBB_SECRET= gZPWCUsguzlh77E6lke0nDzv6ltYjXePtMWM6S1bss
       # BigBlueButton meetingID:
-      - BBB_MEETING_ID=fMtxus8rSTWeG0IUEY2P6vgV9kOjpJim7nDyXdCzZaNqH5ob
+      - BBB_MEETING_ID=WRqxwe1H63B02COvPGtpbEmu9dMZSV4TcXrNLJnfDK5jgyA7
       # start meeting (optional):
       - BBB_START_MEETING=false
       # attendee password (optional - has to be set to the attendee password of moodle/greenlight or any other frontend to allow joining via their links):
@@ -27,7 +27,7 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3270088233013924?s_bl=1&s_sc=3270088289680585&s_sw=0&s_vt=api-s&a=Abz8ND75hVoSkCU0
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/10224438356095099?s_bl=1&s_sc=10224438356255103&s_sw=0&s_vt=api-s&a=AbyOwTht-MDE0v9K
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
