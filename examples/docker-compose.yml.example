@@ -7,7 +7,7 @@ services:
       # BigBlueButton Server url:
       - BBB_URL=https://liveclassshikkhangon.com/bigbluebutton/api
       # BigBlueButton secret:
-      - BBB_SECRET= gZPWCUsguzlh77E6lke0nDzv6ltYjXePtMWM6S1bss
+      - BBB_SECRET=gZPWCUsguzlh77E6lke0nDzv6ltYjXePtMWM6S1bss
       # BigBlueButton meetingID:
       - BBB_MEETING_ID=WRqxwe1H63B02COvPGtpbEmu9dMZSV4TcXrNLJnfDK5jgyA7
       # start meeting (optional):
@@ -27,7 +27,8 @@ services:
       # end intro after (optional, e.g. 01:00:00 - after one hour)
       - BBB_END_INTRO_AT=
       # Media server url:
-      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3429567413741832?s_bl=1&s_psm=1&s_sc=3429567453741828&s_sw=0&s_vt=api-s&a=AbwfokPp5fQpcx4_
+      - BBB_STREAM_URL=rtmps://live-api-s.facebook.com:443/rtmp/3435488753149698?s_bl=1&s_psm=1&s_sc=3435488793149694&s_sw=0&s_vt=api-s&a=AbyUfUmmNG8Q3gzQ
+
       # Timezone (default: Europe/Vienna):
       - TZ=Europe/Vienna
 
